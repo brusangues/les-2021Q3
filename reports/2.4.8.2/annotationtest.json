@@ -1,0 +1,2195 @@
+{
+  "projectName": "annotationtest",
+  "packages": [
+    {
+      "packageName": "annotationtest",
+      "results": [
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\AbstractService.java",
+          "className": "annotationtest.AbstractService",
+          "type": "class",
+          "annotSchemasMap": {
+            "Override-492": "java.lang",
+            "WeakOuter-151": "com.google.j2objc.annotations",
+            "CanIgnoreReturnValue-242": "com.google.errorprone.annotations",
+            "Override-171": "java.lang",
+            "CanIgnoreReturnValue-262": "com.google.errorprone.annotations",
+            "Override-72": "java.lang",
+            "WeakOuter-137": "com.google.j2objc.annotations",
+            "Override-93": "java.lang",
+            "ForOverride-239": "com.google.errorprone.annotations",
+            "ForOverride-204": "com.google.errorprone.annotations",
+            "Override-67": "java.lang",
+            "ForOverride-221": "com.google.errorprone.annotations",
+            "GuardedBy-371": "com.google.errorprone.annotations.concurrent",
+            "Override-315": "java.lang",
+            "Beta-238": "com.google.common.annotations",
+            "Override-112": "java.lang",
+            "Override-299": "java.lang",
+            "Override-310": "java.lang",
+            "Override-332": "java.lang",
+            "Override-157": "java.lang",
+            "Override-498": "java.lang",
+            "Override-481": "java.lang",
+            "WeakOuter-165": "com.google.j2objc.annotations",
+            "Override-263": "java.lang",
+            "Override-560": "java.lang",
+            "Override-143": "java.lang",
+            "Nullable-591": "org.checkerframework.checker.nullness.qual",
+            "Nullable-614": "br.inatel.cdg.annotation",
+            "Override-60": "java.lang",
+            "Nullable-598": "org.checkerframework.checker.nullness.qual",
+            "WeakOuter-123": "com.google.j2objc.annotations",
+            "Override-98": "java.lang",
+            "Override-55": "java.lang",
+            "Override-348": "java.lang",
+            "GwtIncompatible-51": "com.google.common.annotations",
+            "Override-107": "java.lang",
+            "Override-129": "java.lang",
+            "Override-503": "java.lang",
+            "Override-243": "java.lang",
+            "Override-343": "java.lang",
+            "Override-486": "java.lang",
+            "Override-565": "java.lang"
+          },
+          "classMetric": {
+            "LOC": 570,
+            "ASC": 7,
+            "AC": 42,
+            "NAEC": 38,
+            "UAC": 9,
+            "NEC": 76
+          },
+          "elementsReport": [
+            {
+              "type": "method",
+              "sourceCodeLine": 565,
+              "elementName": "toString",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 565,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "constructor",
+              "sourceCodeLine": 192,
+              "elementName": "AbstractService",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 84,
+              "elementName": "TERMINATED_FROM_STARTING_EVENT",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 88,
+              "elementName": "TERMINATED_FROM_STOPPING_EVENT",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 135,
+              "elementName": "isStoppable",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 560,
+              "elementName": "call",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 560,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 119,
+              "elementName": "monitor",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 332,
+              "elementName": "awaitTerminated",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 332,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 105,
+              "elementName": "stoppingEvent",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 556,
+              "elementName": "enqueueFailedEvent",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 137,
+              "elementName": "IsStoppableGuard",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "WeakOuter",
+                  "sourceCodeLine": 137,
+                  "schema": "com.google.j2objc.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 178,
+              "elementName": "listeners",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 72,
+              "elementName": "toString",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 72,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 455,
+              "elementName": "notifyFailed",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "constructor",
+              "sourceCodeLine": 125,
+              "elementName": "IsStartableGuard",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 189,
+              "elementName": "snapshot",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 503,
+              "elementName": "toString",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 503,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 65,
+              "elementName": "RUNNING_EVENT",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 67,
+              "elementName": "call",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 67,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 518,
+              "elementName": "enqueueStartingEvent",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 310,
+              "elementName": "awaitRunning",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 310,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 614,
+              "elementName": "failure",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "br.inatel.cdg.annotation.Nullable",
+                  "sourceCodeLine": 614,
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "constructor",
+              "sourceCodeLine": 167,
+              "elementName": "IsStoppedGuard",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 371,
+              "elementName": "checkCurrentState",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "GuardedBy",
+                  "sourceCodeLine": 371,
+                  "schema": "com.google.errorprone.annotations.concurrent",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 591,
+              "elementName": "failure",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Nullable",
+                  "sourceCodeLine": 591,
+                  "schema": "org.checkerframework.checker.nullness.qual",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 617,
+              "elementName": "externalState",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 536,
+              "elementName": "enqueueTerminatedEvent",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 582,
+              "elementName": "state",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 262,
+              "elementName": "stopAsync",
+              "aedValue": 2,
+              "annotationMetrics": [
+                {
+                  "annotationName": "CanIgnoreReturnValue",
+                  "sourceCodeLine": 262,
+                  "schema": "com.google.errorprone.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 263,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 86,
+              "elementName": "TERMINATED_FROM_RUNNING_EVENT",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 55,
+              "elementName": "call",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 55,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 522,
+              "elementName": "enqueueRunningEvent",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 143,
+              "elementName": "isSatisfied",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 143,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 82,
+              "elementName": "TERMINATED_FROM_NEW_EVENT",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 123,
+              "elementName": "IsStartableGuard",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "WeakOuter",
+                  "sourceCodeLine": 123,
+                  "schema": "com.google.j2objc.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 77,
+              "elementName": "STOPPING_FROM_STARTING_EVENT",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 512,
+              "elementName": "dispatchListenerEvents",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 238,
+              "elementName": "doCancelStart",
+              "aedValue": 2,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Beta",
+                  "sourceCodeLine": 238,
+                  "schema": "com.google.common.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "ForOverride",
+                  "sourceCodeLine": 239,
+                  "schema": "com.google.errorprone.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 149,
+              "elementName": "hasReachedRunning",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "constructor",
+              "sourceCodeLine": 153,
+              "elementName": "HasReachedRunningGuard",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 221,
+              "elementName": "doStop",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "ForOverride",
+                  "sourceCodeLine": 221,
+                  "schema": "com.google.errorprone.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 348,
+              "elementName": "awaitTerminated",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 348,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "constructor",
+              "sourceCodeLine": 593,
+              "elementName": "StateSnapshot",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 112,
+              "elementName": "toString",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 112,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 486,
+              "elementName": "state",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 486,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 585,
+              "elementName": "shutdownWhenStartupFinishes",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 93,
+              "elementName": "call",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 93,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 242,
+              "elementName": "startAsync",
+              "aedValue": 2,
+              "annotationMetrics": [
+                {
+                  "annotationName": "CanIgnoreReturnValue",
+                  "sourceCodeLine": 242,
+                  "schema": "com.google.errorprone.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 243,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 343,
+              "elementName": "awaitTerminated",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 343,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 121,
+              "elementName": "isStartable",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 204,
+              "elementName": "doStart",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "ForOverride",
+                  "sourceCodeLine": 204,
+                  "schema": "com.google.errorprone.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 481,
+              "elementName": "isRunning",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 481,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "constructor",
+              "sourceCodeLine": 597,
+              "elementName": "StateSnapshot",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Nullable",
+                  "sourceCodeLine": 598,
+                  "schema": "org.checkerframework.checker.nullness.qual",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 157,
+              "elementName": "isSatisfied",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 157,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 129,
+              "elementName": "isSatisfied",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 129,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 428,
+              "elementName": "notifyStopped",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 626,
+              "elementName": "failureCause",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 151,
+              "elementName": "HasReachedRunningGuard",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "WeakOuter",
+                  "sourceCodeLine": 151,
+                  "schema": "com.google.j2objc.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 163,
+              "elementName": "isStopped",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 79,
+              "elementName": "STOPPING_FROM_RUNNING_EVENT",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 299,
+              "elementName": "awaitRunning",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 299,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 492,
+              "elementName": "failureCause",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 492,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 98,
+              "elementName": "toString",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 98,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "constructor",
+              "sourceCodeLine": 139,
+              "elementName": "IsStoppableGuard",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 315,
+              "elementName": "awaitRunning",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 315,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 107,
+              "elementName": "call",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 107,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 91,
+              "elementName": "terminatedEvent",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 171,
+              "elementName": "isSatisfied",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 171,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 60,
+              "elementName": "toString",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 60,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 526,
+              "elementName": "enqueueStoppingEvent",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 498,
+              "elementName": "addListener",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 498,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 165,
+              "elementName": "IsStoppedGuard",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "WeakOuter",
+                  "sourceCodeLine": 165,
+                  "schema": "com.google.j2objc.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 53,
+              "elementName": "STARTING_EVENT",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 51,
+              "elementName": "AbstractService",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "GwtIncompatible",
+                  "sourceCodeLine": 51,
+                  "schema": "com.google.common.annotations",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 578,
+              "elementName": "StateSnapshot",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 392,
+              "elementName": "notifyStarted",
+              "aedValue": 0,
+              "annotationMetrics": []
+            }
+          ]
+        },
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\AnnotationTest.java",
+          "className": "annotationtest.AnnotationTest",
+          "type": "class",
+          "annotSchemasMap": {
+            "Test-170": "org.junit",
+            "GET-56": "javax.ws.rs",
+            "Override-231": "java.lang",
+            "Produces-58": "javax.ws.rs",
+            "Annotation2-170": "annotationtest",
+            "Override-75": "java.lang",
+            "PathParam-61": "javax.ws.rs",
+            "Override-93": "java.lang",
+            "Inheritance-172": "javax.persistence",
+            "Override-218": "java.lang",
+            "Annotation0-170": "annotationtest",
+            "Id-176": "javax.persistence",
+            "Entity-237": "javax.persistence",
+            "Override-66": "java.lang",
+            "Context-60": "javax.ws.rs.core",
+            "Entity-171": "javax.persistence",
+            "QueryParam-63": "javax.ws.rs",
+            "QueryParam-62": "javax.ws.rs",
+            "Test-151": "org.junit",
+            "Override-279": "java.lang",
+            "NamedQuery-166": "javax.persistence",
+            "Override-283": "java.lang",
+            "Path-57": "javax.ws.rs",
+            "Before-103": "org.junit",
+            "Override-264": "java.lang",
+            "Secured-59": "org.springframework.security.access.annotation",
+            "Annotation0-175": "annotationtest",
+            "Id-179": "javax.persistence",
+            "Override-84": "java.lang",
+            "JoinColumn-165": "javax.persistence",
+            "JoinColumn-163": "javax.persistence",
+            "Test-129": "org.junit",
+            "AssociationOverrides-161": "javax.persistence",
+            "AssociationOverride-164": "javax.persistence",
+            "AssociationOverride-162": "javax.persistence",
+            "Override-98": "java.lang",
+            "Test-141": "org.junit",
+            "Entity-241": "javax.persistence",
+            "Override-268": "java.lang"
+          },
+          "classMetric": {
+            "LOC": 243,
+            "ASC": 7,
+            "AC": 39,
+            "NAEC": 21,
+            "UAC": 25,
+            "NEC": 44
+          },
+          "elementsReport": [
+            {
+              "type": "method",
+              "sourceCodeLine": 93,
+              "elementName": "isCleanupTestDataRequired",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 93,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 218,
+              "elementName": "equals",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 218,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 246,
+              "elementName": "isFellow",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 151,
+              "elementName": "testDeleteFromEngineer",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Test",
+                  "sourceCodeLine": 151,
+                  "schema": "org.junit",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 278,
+              "elementName": "name",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 279,
+              "elementName": "greet",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 279,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 263,
+              "elementName": "name",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 194,
+              "elementName": "getCompanyName",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 237,
+              "elementName": "Doctor",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Entity",
+                  "sourceCodeLine": 237,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 241,
+              "elementName": "Engineer",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Entity",
+                  "sourceCodeLine": 241,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 264,
+              "elementName": "greet",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 264,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 54,
+              "elementName": "AnnotationTest",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 125,
+              "elementName": "entityCount",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 75,
+              "elementName": "getAnnotatedClasses",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 75,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 260,
+              "elementName": "sayHello",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 98,
+              "elementName": "isCleanupTestDataUsingBulkDelete",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 98,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 244,
+              "elementName": "fellow",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 186,
+              "elementName": "getId",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 283,
+              "elementName": "greetSomeone",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 283,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 161,
+              "elementName": "Person",
+              "aedValue": 11,
+              "annotationMetrics": [
+                {
+                  "annotationName": "AssociationOverrides",
+                  "sourceCodeLine": 161,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 5,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "AssociationOverride",
+                  "sourceCodeLine": 162,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 2,
+                    "LOCAD": 2,
+                    "ANL": 1
+                  }
+                },
+                {
+                  "annotationName": "JoinColumn",
+                  "sourceCodeLine": 163,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 2
+                  }
+                },
+                {
+                  "annotationName": "AssociationOverride",
+                  "sourceCodeLine": 164,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 2,
+                    "LOCAD": 2,
+                    "ANL": 1
+                  }
+                },
+                {
+                  "annotationName": "JoinColumn",
+                  "sourceCodeLine": 165,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 2
+                  }
+                },
+                {
+                  "annotationName": "NamedQuery",
+                  "sourceCodeLine": 166,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 2,
+                    "LOCAD": 4,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Test",
+                  "sourceCodeLine": 170,
+                  "schema": "org.junit",
+                  "annotationMetrics": {
+                    "AA": 3,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Annotation0",
+                  "sourceCodeLine": 170,
+                  "schema": "annotationtest",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 1
+                  }
+                },
+                {
+                  "annotationName": "Annotation2",
+                  "sourceCodeLine": 170,
+                  "schema": "annotationtest",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 1
+                  }
+                },
+                {
+                  "annotationName": "Entity",
+                  "sourceCodeLine": 171,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 2,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Inheritance",
+                  "sourceCodeLine": 172,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 257,
+              "elementName": "greetSomeone",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 210,
+              "elementName": "isEmployed",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 66,
+              "elementName": "getAnnotatedClasses",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 66,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 214,
+              "elementName": "setEmployed",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 141,
+              "elementName": "testDeleteFromPerson",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Test",
+                  "sourceCodeLine": 141,
+                  "schema": "org.junit",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 250,
+              "elementName": "setFellow",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 190,
+              "elementName": "setId",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 231,
+              "elementName": "hashCode",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 231,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 202,
+              "elementName": "getName",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 182,
+              "elementName": "name",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 91,
+              "elementName": "getMultiTableBulkIdStrategyClass",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 175,
+              "elementName": "id",
+              "aedValue": 2,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Annotation0",
+                  "sourceCodeLine": 175,
+                  "schema": "annotationtest",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Id",
+                  "sourceCodeLine": 176,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 268,
+              "elementName": "greetSomeone",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 268,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 206,
+              "elementName": "setName",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 256,
+              "elementName": "greet",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 56,
+              "elementName": "getAllResources",
+              "aedValue": 8,
+              "annotationMetrics": [
+                {
+                  "annotationName": "GET",
+                  "sourceCodeLine": 56,
+                  "schema": "javax.ws.rs",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Path",
+                  "sourceCodeLine": 57,
+                  "schema": "javax.ws.rs",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Produces",
+                  "sourceCodeLine": 58,
+                  "schema": "javax.ws.rs",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Secured",
+                  "sourceCodeLine": 59,
+                  "schema": "org.springframework.security.access.annotation",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Context",
+                  "sourceCodeLine": 60,
+                  "schema": "javax.ws.rs.core",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "PathParam",
+                  "sourceCodeLine": 61,
+                  "schema": "javax.ws.rs",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "QueryParam",
+                  "sourceCodeLine": 62,
+                  "schema": "javax.ws.rs",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "QueryParam",
+                  "sourceCodeLine": 63,
+                  "schema": "javax.ws.rs",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 84,
+              "elementName": "constructConfiguration",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Override",
+                  "sourceCodeLine": 84,
+                  "schema": "java.lang",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 103,
+              "elementName": "setUp",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Before",
+                  "sourceCodeLine": 103,
+                  "schema": "org.junit",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 184,
+              "elementName": "employed",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 198,
+              "elementName": "setCompanyName",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 179,
+              "elementName": "companyName",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Id",
+                  "sourceCodeLine": 179,
+                  "schema": "javax.persistence",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "interface",
+              "sourceCodeLine": 255,
+              "elementName": "HelloWorld",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 262,
+              "elementName": "EnglishGreeting",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "method",
+              "sourceCodeLine": 129,
+              "elementName": "testUpdate",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Test",
+                  "sourceCodeLine": 129,
+                  "schema": "org.junit",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\EnumTest.java",
+          "className": "annotationtest.EnumTest",
+          "type": "enum",
+          "annotSchemasMap": {},
+          "classMetric": {
+            "LOC": 3,
+            "ASC": 0,
+            "AC": 0,
+            "NAEC": 0,
+            "UAC": 0,
+            "NEC": 1
+          },
+          "elementsReport": [
+            {
+              "type": "enum",
+              "sourceCodeLine": 3,
+              "elementName": "EnumTest",
+              "aedValue": 0,
+              "annotationMetrics": []
+            }
+          ]
+        },
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\InnerAnnotationTypeTest.java",
+          "className": "annotationtest.InnerAnnotationTypeTest",
+          "type": "class",
+          "annotSchemasMap": {
+            "Target-15": "java.lang.annotation",
+            "Foo-22": "annotationtest",
+            "AnnotationTest-8": "annotationtest",
+            "AnnotationTest-21": "annotationtest",
+            "AnnotationFullyName-9": "br.inatel.cdg.annotation",
+            "Retention-14": "java.lang.annotation"
+          },
+          "classMetric": {
+            "LOC": 22,
+            "ASC": 3,
+            "AC": 6,
+            "NAEC": 3,
+            "UAC": 5,
+            "NEC": 6
+          },
+          "elementsReport": [
+            {
+              "type": "constructor",
+              "sourceCodeLine": 25,
+              "elementName": "SampleInnerClass",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 12,
+              "elementName": "member1",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "annotation-declaration",
+              "sourceCodeLine": 14,
+              "elementName": "Foo",
+              "aedValue": 2,
+              "annotationMetrics": [
+                {
+                  "annotationName": "Retention",
+                  "sourceCodeLine": 14,
+                  "schema": "java.lang.annotation",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Target",
+                  "sourceCodeLine": 15,
+                  "schema": "java.lang.annotation",
+                  "annotationMetrics": {
+                    "AA": 1,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 8,
+              "elementName": "InnerAnnotationTypeTest",
+              "aedValue": 2,
+              "annotationMetrics": [
+                {
+                  "annotationName": "AnnotationTest",
+                  "sourceCodeLine": 8,
+                  "schema": "annotationtest",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "br.inatel.cdg.annotation.AnnotationFullyName",
+                  "sourceCodeLine": 9,
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 20,
+              "elementName": "SampleInnerClass",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 21,
+              "elementName": "innerField",
+              "aedValue": 2,
+              "annotationMetrics": [
+                {
+                  "annotationName": "AnnotationTest",
+                  "sourceCodeLine": 21,
+                  "schema": "annotationtest",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                },
+                {
+                  "annotationName": "Foo",
+                  "sourceCodeLine": 22,
+                  "schema": "annotationtest",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\InnerClassTest.java",
+          "className": "annotationtest.InnerClassTest",
+          "type": "class",
+          "annotSchemasMap": {
+            "AnnotationTest-3": "annotationtest"
+          },
+          "classMetric": {
+            "LOC": 14,
+            "ASC": 1,
+            "AC": 1,
+            "NAEC": 1,
+            "UAC": 1,
+            "NEC": 6
+          },
+          "elementsReport": [
+            {
+              "type": "class",
+              "sourceCodeLine": 9,
+              "elementName": "InnerClass1",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "enum",
+              "sourceCodeLine": 17,
+              "elementName": "Enum1",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "enum",
+              "sourceCodeLine": 21,
+              "elementName": "Enum2",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 3,
+              "elementName": "InnerClassTest",
+              "aedValue": 1,
+              "annotationMetrics": [
+                {
+                  "annotationName": "AnnotationTest",
+                  "sourceCodeLine": 3,
+                  "schema": "annotationtest",
+                  "annotationMetrics": {
+                    "AA": 0,
+                    "LOCAD": 1,
+                    "ANL": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 13,
+              "elementName": "InnerClass2",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "constructor",
+              "sourceCodeLine": 6,
+              "elementName": "InnerClassTest",
+              "aedValue": 0,
+              "annotationMetrics": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "br.inpe.climaespacial.tsi.business",
+      "results": [
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\test-package\\TestPackageHierarchy.java",
+          "className": "br.inpe.climaespacial.tsi.business.TestPackageHierarchy",
+          "type": "class",
+          "annotSchemasMap": {},
+          "classMetric": {
+            "LOC": 4,
+            "ASC": 0,
+            "AC": 0,
+            "NAEC": 0,
+            "UAC": 0,
+            "NEC": 2
+          },
+          "elementsReport": [
+            {
+              "type": "class",
+              "sourceCodeLine": 3,
+              "elementName": "TestPackageHierarchy",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 5,
+              "elementName": "member1",
+              "aedValue": 0,
+              "annotationMetrics": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "br.inpe.climaespacial.tsi.business.impl",
+      "results": [
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\test-package\\TestPackageHierarchy2.java",
+          "className": "br.inpe.climaespacial.tsi.business.impl.TestPackageHierarchy2",
+          "type": "class",
+          "annotSchemasMap": {},
+          "classMetric": {
+            "LOC": 4,
+            "ASC": 0,
+            "AC": 0,
+            "NAEC": 0,
+            "UAC": 0,
+            "NEC": 2
+          },
+          "elementsReport": [
+            {
+              "type": "field",
+              "sourceCodeLine": 5,
+              "elementName": "member1",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 3,
+              "elementName": "TestPackageHierarchy2",
+              "aedValue": 0,
+              "annotationMetrics": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "br.inpe.climaespacial.tsi.businesscli",
+      "results": [
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\test-package\\TestPackageHierarchy3.java",
+          "className": "br.inpe.climaespacial.tsi.businesscli.TestPackageHierarchy3",
+          "type": "class",
+          "annotSchemasMap": {},
+          "classMetric": {
+            "LOC": 4,
+            "ASC": 0,
+            "AC": 0,
+            "NAEC": 0,
+            "UAC": 0,
+            "NEC": 2
+          },
+          "elementsReport": [
+            {
+              "type": "field",
+              "sourceCodeLine": 5,
+              "elementName": "member1",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "class",
+              "sourceCodeLine": 3,
+              "elementName": "TestPackageHierarchy3",
+              "aedValue": 0,
+              "annotationMetrics": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packageName": "br.inpe.climaespacial.tsi.businesscli.constants",
+      "results": [
+        {
+          "sourceFilePath": "C:\\Users\\Bruno-NB\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\test-package\\TestPackageHierarchy4.java",
+          "className": "br.inpe.climaespacial.tsi.businesscli.constants.TestPackageHierarchy4",
+          "type": "class",
+          "annotSchemasMap": {},
+          "classMetric": {
+            "LOC": 4,
+            "ASC": 0,
+            "AC": 0,
+            "NAEC": 0,
+            "UAC": 0,
+            "NEC": 2
+          },
+          "elementsReport": [
+            {
+              "type": "class",
+              "sourceCodeLine": 3,
+              "elementName": "TestPackageHierarchy4",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 5,
+              "elementName": "member1",
+              "aedValue": 0,
+              "annotationMetrics": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
