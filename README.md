@@ -8,13 +8,13 @@ cd ..
 
 ## Annotationtest
 ### Run project on tests
-java -jar asniffer/target/asniffer.jar -p asniffer/annotationtest -r reports/2.4.8.1/
+java -jar asniffer/target/asniffer.jar -p asniffer/annotationtest -r reports/2.4.8.2/
 ### Run original on tests
 java -jar jars/asniffer2.4.7.jar -p asniffer/annotationtest -r reports/2.4.7/
 
 ## Spring
 ### Run project on spring
-java -jar asniffer/target/asniffer.jar -p spring-boot-2.6.0-M3 -r reports/2.4.8.1/
+java -jar asniffer/target/asniffer.jar -p spring-boot-2.6.0-M3 -r reports/2.4.8.2/
 ### Run original on spring
 java -jar jars/asniffer2.4.7.jar -p spring-boot-2.6.0-M3 -r reports/2.4.7/
 
