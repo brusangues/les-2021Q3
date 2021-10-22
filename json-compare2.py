@@ -9,7 +9,8 @@ from collections import defaultdict
 from itertools import zip_longest
 from datetime import datetime
 
-#python json-compare2.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.8.1/annotationtest.json"
+#python json-compare2.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.8.1/annotationtest.json" -o
+#python json-compare2.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.8.1/annotationtest.json" -o
 
 description = '''
     Check if 2 json files are the same (regardless of key order), and
@@ -103,6 +104,7 @@ def main():
     # Log dict
     if not json1==json2:
         logger.info(f"Key difference contents:")
+        key_diffs = {k:v for k,v in key_diffs.items() if v>0}
         key_diffs_lines = json.dumps(key_diffs, indent=2)
         key_diffs_lines = key_diffs_lines.split("\n")
         for line in key_diffs_lines:
@@ -199,9 +201,17 @@ def compareDeep(d1,d2):
     N = 1
     if json.dumps(d1) == json.dumps(d2):
         return 0
-    if isinstance(d1,(dict,list)) and isinstance(d2,(dict,list)):
+    if isinstance(d1,list) and isinstance(d2,list):
         for k1, k2 in zip_longest(d1,d2, fillvalue='_'):
             n = compareDeep(k1,k2)
+            N += n
+    if isinstance(d1,dict) and isinstance(d2,dict):
+        for k1, k2 in zip_longest(d1,d2, fillvalue='_'):
+            try:    d11 = d1[k1]
+            except: d11 = '_'
+            try:    d22 = d2[k2]
+            except: d22 = '_'
+            n = compareDeep(d11,d22)
             key_diffs[k1] += n
             key_diffs[k2] += n
             N += n
