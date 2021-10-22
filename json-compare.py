@@ -64,21 +64,41 @@ def applyNtimes(d,f,n):
         d = f(d)
     return d
 
+def make_hash(d):
+    check = ''
+    for key in d:
+        check += str(d[key])
+    return hash(check)
+
+def applyUntilFinal(d,f,n=10000):
+    checksum_ = 0
+    checksum = make_hash(d)
+    i=0
+    while checksum != checksum_ and i<n:
+        checksum_ = checksum
+        d = f(d)
+        checksum = make_hash(d)
+        i+=1
+    return d, i
+
 def getFileLines(f): 
     return sum(1 for line in open(f))
 
 def compareJson(path1,path2, write=False):
     # Size comparison
+    print("\nSize comparison...")
     s1 = os.path.getsize(path1)
     s2 = os.path.getsize(path2)
     print("JSON sizes match?", s1 == s2, s1, s2)
 
     # Line count comparison
+    print("\nLine count comparison...")
     l1 = getFileLines(path1)
     l2 = getFileLines(path2)
     print("JSON line count match?", l1 == l2, l1, l2)
 
-    # Contents comparison
+    # Sorting jsons
+    print("\nSorting jsons...")
     data1 = dict()
     data2 = dict()
     lines1= []
@@ -86,10 +106,13 @@ def compareJson(path1,path2, write=False):
     with open(path1) as f: data1 = json.load(f)
     with open(path2) as f: data2 = json.load(f)
 
-    #apply sorting 100 times to make sure all nested dicts are sorted
-    data1 = applyNtimes(data1, sortedDeep, 100) 
-    data2 = applyNtimes(data2, sortedDeep, 100)
+    #apply sorting up until 100 times to make sure all nested dicts are sorted
+    data1, i1 = applyUntilFinal(data1, sortedDeep, 100)
+    data2, i2 = applyUntilFinal(data2, sortedDeep, 100)
+    print("JSON's # reorders:", i1, i2)
 
+    # Contents comparison
+    print("\nContents comparison...")
     json1 = json.dumps(data1, sort_keys=True)
     json2 = json.dumps(data2, sort_keys=True)
     print("JSON contents match?", json1 == json2)
@@ -106,6 +129,7 @@ def compareJson(path1,path2, write=False):
         json.dump(data2, f, indent=2, sort_keys=True)
 
     # Ordered lines comparison
+    print("\nOrdered lines comparison...")
     with open(path_out1) as f: lines1 = f.readlines()
     with open(path_out2) as f: lines2 = f.readlines()
 
