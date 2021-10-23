@@ -9,11 +9,34 @@ from collections import defaultdict
 from itertools import zip_longest
 from datetime import datetime
 
-#python json-compare2.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.8.1/annotationtest.json" -o
-#python json-compare2.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.8.1/annotationtest.json" -o
+'''
+usage: json-compare2.py [-h] [-f FOLDER] -f1 FILE1 -f2 FILE2 [-l LOG] [-o]
 
+Check if 2 json files are the same (regardless of key or list order), and
+optionally write the ordered json files with the suffix "_cmp".
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FOLDER, --Folder FOLDER
+                        Root folder.
+  -f1 FILE1, --File1 FILE1
+                        First file to be compared.
+  -f2 FILE2, --File2 FILE2
+                        Second file to be compared.
+  -l LOG, --Log LOG     Path to log file. Defaults to root.
+  -o, --Output          Flag indicating wether to write output files or not.
+
+examples:
+python json-compare2.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.8.1/annotationtest.json" -o -l "reports/logs"
+python json-compare2.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.8.2/annotationtest.json" -o -l "reports/logs"
+python json-compare2.py -f1 "reports/2.4.8.1/annotationtest.json" -f2 "reports/2.4.8.2/annotationtest.json" -o -l "reports/logs"
+
+python json-compare2.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.8.1/spring-boot-2.6.0-M3.json" -o -l "reports/logs"
+python json-compare2.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.8.2/spring-boot-2.6.0-M3.json" -o -l "reports/logs"
+python json-compare2.py -f1 "reports/2.4.8.1/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.8.2/spring-boot-2.6.0-M3.json" -o -l "reports/logs"
+'''
 description = '''
-    Check if 2 json files are the same (regardless of key order), and
+    Check if 2 json files are the same (regardless of key or list order), and
     optionally write the ordered json files with the suffix "_cmp".
     '''
 
@@ -23,6 +46,7 @@ def main():
     parser.add_argument("-f", "--Folder", help = "Root folder.", default="")
     parser.add_argument("-f1", "--File1", help = "First file to be compared.", required=True)
     parser.add_argument("-f2", "--File2", help = "Second file to be compared.", required=True)
+    parser.add_argument("-l", "--Log", help = "Path to log file. Defaults to root.", default="")
     parser.add_argument("-o", "--Output", action="store_true", \
         help= "Flag indicating wether to write output files or not.")
     
@@ -31,37 +55,40 @@ def main():
     path1 = os.path.join(args.Folder, args.File1)
     path2 = os.path.join(args.Folder, args.File2)
     write = args.Output
+    log_folder = args.Log
 
     # Initialize logger
     #log_file = f"{abs(hash(path1+path2))}.log"
     log_file = datetime.today().strftime('%Y_%m_%d-%H_%M_%S.log')
+    log_file = os.path.join(log_folder,log_file)
     logger = makeLogger(log_file)
     logger.info(f'Logging to {log_file}')
 
     # Reindentation
     logger.info('Reindentation...')
-    reindent(path1)
-    reindent(path2)
+    path_out1 = path1[:-5]+"_cmp.json"
+    path_out2 = path2[:-5]+"_cmp.json"
+    logger.info(f"Writting output JSON files: {path_out1} {path_out2}")
+    reindent(path1, path_out1)
+    reindent(path2, path_out2)
     
     # Size comparison
     logger.info('Size comparison...')
-    s1 = os.path.getsize(path1)
-    s2 = os.path.getsize(path2)
+    s1 = os.path.getsize(path_out1)
+    s2 = os.path.getsize(path_out2)
     logger.info(f"JSON sizes match? {s1 == s2} {s1} {s2}")
 
     # Line count comparison
     logger.info('Line count comparison...')
-    l1 = getFileLineCount(path1)
-    l2 = getFileLineCount(path2)
+    l1 = getFileLineCount(path_out1)
+    l2 = getFileLineCount(path_out2)
     logger.info(f"JSON line count match? {l1 == l2} {l1} {l2}")
 
     # Sorting jsons
     logger.info('Sorting jsons...')
-    path_out1 = path1[:-5]+"_cmp.json"
-    path_out2 = path2[:-5]+"_cmp.json"
     logger.info(f"Writting output JSON files: {path_out1} {path_out2}")
-    data1, i1 = sortJson(path1, path_out1, n_max=100)
-    data2, i2 = sortJson(path2, path_out2, n_max=100)
+    _, i1 = sortJson(path_out1, path_out1, n_max=100)
+    _, i2 = sortJson(path_out2, path_out2, n_max=100)
     logger.info(f"JSON's # reorders: {i1} {i2}")
 
     # Contents comparison
@@ -70,12 +97,8 @@ def main():
     json2 = getFileString(path_out2)
     logger.info(f"JSON contents match? {json1==json2}")
     if not json1==json2:
-        key_diffs, n = compareJsons(path1, path2)
+        key_diffs, n = compareJsons(path_out1, path_out2)
         logger.info(f"Number of different keys: {n}")
-        key_diffs_file = log_file[:-4]+'.json'
-        logger.info(f"Writting output key difference report: {key_diffs_file}")
-        with open(key_diffs_file, 'w') as f:
-            json.dump(key_diffs, f, indent=2)
     
     # Ordered lines comparison
     logger.info("Ordered lines comparison...")
@@ -83,9 +106,9 @@ def main():
     lines2 = getFileOrderedLines(path_out2)
 
     if write:
-        logger.info(f"Writting output TXT files: {path_out1}.txt {path_out2}.txt")
-        writeLines(path_out1+".txt", lines1)
-        writeLines(path_out2+".txt", lines2)
+        logger.info(f"Writting output TXT files: {path_out1[:-5]}.txt {path_out2[:-5]}.txt")
+        writeLines(path_out1[:-5]+".txt", lines1)
+        writeLines(path_out2[:-5]+".txt", lines2)
 
     logger.info(f"JSON ordered lines match? {lines1 == lines2}")
     if not lines1 == lines2:
@@ -103,10 +126,15 @@ def main():
 
     # Log dict
     if not json1==json2:
+        key_diffs_file = log_file[:-4]+'.json'
+        key_diffs = {k:v for k,v in key_diffs.items() if v[0]>0}
+        key_diffs = {k:v for k,v in sorted(key_diffs.items(), key=lambda kv: kv[1][0])}
+        logger.info(f"Writting output key difference report: {key_diffs_file}")
+        with open(key_diffs_file, 'w') as f:
+            json.dump(key_diffs, f, indent=2)
+        
         logger.info(f"Key difference contents:")
-        key_diffs = {k:v for k,v in key_diffs.items() if v>0}
-        key_diffs_lines = json.dumps(key_diffs, indent=2)
-        key_diffs_lines = key_diffs_lines.split("\n")
+        key_diffs_lines = [f" - {k}: {v[0]}/{v[1]}" for k,v in key_diffs.items()]
         for line in key_diffs_lines:
             logger.info(line)
 
@@ -122,12 +150,12 @@ def makeLogger(filename):
     logger.addHandler(sh)
     return logger
 
-def reindent(path):
+def reindent(path, path_out):
     data = None
     with open(path) as f: 
         data = json.load(f)
     time.sleep(1)
-    with open(path, 'w') as f:
+    with open(path_out, 'w') as f:
         json.dump(data, f, indent=2)
 
 def sortedDeep(d):
@@ -185,7 +213,7 @@ def getFileOrderedLines(path):
     return sorted(lines)
 
 def writeLines(path, lines):
-    with open(path+".txt", 'w') as f:
+    with open(path, 'w') as f:
         for line in lines:
             f.write(line)
 
@@ -204,7 +232,7 @@ def compareDeep(d1,d2):
     if isinstance(d1,list) and isinstance(d2,list):
         for k1, k2 in zip_longest(d1,d2, fillvalue='_'):
             n = compareDeep(k1,k2)
-            N += n
+            #N += n
     if isinstance(d1,dict) and isinstance(d2,dict):
         for k1, k2 in zip_longest(d1,d2, fillvalue='_'):
             try:    d11 = d1[k1]
@@ -212,15 +240,17 @@ def compareDeep(d1,d2):
             try:    d22 = d2[k2]
             except: d22 = '_'
             n = compareDeep(d11,d22)
-            key_diffs[k1] += n
-            key_diffs[k2] += n
-            N += n
+            key_diffs[k1][0] += n
+            key_diffs[k1][1] += 1
+            key_diffs[k2][0] += n
+            key_diffs[k2][1] += 1
+            #N += n
     return N
 
 def compareJsons(path1, path2):
     data1 = data2 = None
     global key_diffs
-    key_diffs = defaultdict(lambda: 0)
+    key_diffs = defaultdict(lambda: [0,0])
     with open(path1) as f: data1 = json.load(f)
     with open(path2) as f: data2 = json.load(f)
     n = compareDeep(data1,data2)

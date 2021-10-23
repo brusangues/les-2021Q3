@@ -20,9 +20,7 @@ java -jar jars/asniffer2.4.7.jar -p spring-boot-2.6.0-M3 -r reports/2.4.7/
 
 ## Compare
 ### Compare tests
-python json-compare.py -f1 "reports/2.4.7/annotationtest.json" \
-    -f2 "reports/2.4.8.1/annotationtest.json"
+python json-compare.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.8.1/annotationtest.json"
 
 ### Compare spring
-python json-compare.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" \
-    -f2 "reports/2.4.8.1/spring-boot-2.6.0-M3.json"
+python json-compare.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.8.1/spring-boot-2.6.0-M3.json" -o
