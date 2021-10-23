@@ -1,0 +1,24 @@
+[Sat, 23 Oct 2021 10:31:08] INFO [json-compare2.py.main:65] Logging to reports/logs\2021_10_23-10_31_08.log
+[Sat, 23 Oct 2021 10:31:08] INFO [json-compare2.py.main:68] Reindentation...
+[Sat, 23 Oct 2021 10:31:08] INFO [json-compare2.py.main:71] Writting output JSON files: reports/2.4.7/annotationtest_cmp.json reports/2.4.8.1/annotationtest_cmp.json
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:76] Size comparison...
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:79] JSON sizes match? False 70283 70364
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:82] Line count comparison...
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:85] JSON line count match? True 2188 2188
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:88] Sorting jsons...
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:89] Writting output JSON files: reports/2.4.7/annotationtest_cmp.json reports/2.4.8.1/annotationtest_cmp.json
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:92] JSON's # reorders: 2 2
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:95] Contents comparison...
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:98] JSON contents match? False
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:101] Number of different keys: 1
+[Sat, 23 Oct 2021 10:31:10] INFO [json-compare2.py.main:104] Ordered lines comparison...
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:109] Writting output TXT files: reports/2.4.7/annotationtest_cmp.txt reports/2.4.8.1/annotationtest_cmp.txt
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:113] JSON ordered lines match? False
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:116] Number of equal ordered lines:2135/2188
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:132] Writting output key difference report: reports/logs\2021_10_23-10_31_08.json
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:136] Key difference contents:
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:141] packages: 2/2
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:141] elementsReport: 4/18
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:141] results: 10/10
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:141] sourceFilePath: 18/18
+[Sat, 23 Oct 2021 10:31:11] INFO [json-compare2.py.main:141] sourceCodeLine: 46/46

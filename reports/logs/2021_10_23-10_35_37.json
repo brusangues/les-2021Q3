@@ -1,0 +1,46 @@
+{
+  "classMetric": [
+    2,
+    18
+  ],
+  "aedValue": [
+    2,
+    70
+  ],
+  "annotationMetrics": [
+    2,
+    70
+  ],
+  "LOC": [
+    2,
+    2
+  ],
+  "NEC": [
+    2,
+    2
+  ],
+  "packages": [
+    2,
+    2
+  ],
+  "elementsReport": [
+    8,
+    18
+  ],
+  "results": [
+    10,
+    10
+  ],
+  "type": [
+    18,
+    88
+  ],
+  "sourceFilePath": [
+    18,
+    18
+  ],
+  "sourceCodeLine": [
+    56,
+    70
+  ]
+}

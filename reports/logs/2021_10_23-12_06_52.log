@@ -1,0 +1,28 @@
+[Sat, 23 Oct 2021 12:06:52] INFO [json-compare2.py.main:65] Logging to reports/logs\2021_10_23-12_06_52.log
+[Sat, 23 Oct 2021 12:06:52] INFO [json-compare2.py.main:68] Reindentation...
+[Sat, 23 Oct 2021 12:06:52] INFO [json-compare2.py.main:71] Writting output JSON files: reports/2.4.7/spring-boot-2.6.0-M3_cmp.json reports/2.4.7/spring-boot-project-PV_cmp.json
+[Sat, 23 Oct 2021 12:07:13] INFO [json-compare2.py.main:76] Size comparison...
+[Sat, 23 Oct 2021 12:07:13] INFO [json-compare2.py.main:79] JSON sizes match? False 31451565 11830057
+[Sat, 23 Oct 2021 12:07:13] INFO [json-compare2.py.main:82] Line count comparison...
+[Sat, 23 Oct 2021 12:07:15] INFO [json-compare2.py.main:85] JSON line count match? False 921401 313583
+[Sat, 23 Oct 2021 12:07:15] INFO [json-compare2.py.main:88] Sorting jsons...
+[Sat, 23 Oct 2021 12:07:15] INFO [json-compare2.py.main:89] Writting output JSON files: reports/2.4.7/spring-boot-2.6.0-M3_cmp.json reports/2.4.7/spring-boot-project-PV_cmp.json
+[Sat, 23 Oct 2021 12:07:55] INFO [json-compare2.py.main:92] JSON's # reorders: 2 2
+[Sat, 23 Oct 2021 12:07:55] INFO [json-compare2.py.main:95] Contents comparison...
+[Sat, 23 Oct 2021 12:07:58] INFO [json-compare2.py.main:98] JSON contents match? False
+[Sat, 23 Oct 2021 12:08:07] INFO [json-compare2.py.main:101] Number of different keys: 1
+[Sat, 23 Oct 2021 12:08:07] INFO [json-compare2.py.main:104] Ordered lines comparison...
+[Sat, 23 Oct 2021 12:08:09] INFO [json-compare2.py.main:109] Writting output TXT files: reports/2.4.7/spring-boot-2.6.0-M3_cmp.txt reports/2.4.7/spring-boot-project-PV_cmp.txt
+[Sat, 23 Oct 2021 12:08:15] INFO [json-compare2.py.main:113] JSON ordered lines match? False
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:116] Number of equal ordered lines:9858/921401
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:132] Writting output key difference report: reports/logs\2021_10_23-12_06_52.json
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:136] Key difference contents:
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - packages: 1/1
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - projectName: 1/1
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - packageName: 6/6
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - results: 6/6
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - properties: 6/6
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - type: 6/6
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - children: 7/7
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - name: 7/7
+[Sat, 23 Oct 2021 12:08:16] INFO [json-compare2.py.main:139]  - _: 12/12

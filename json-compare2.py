@@ -34,6 +34,11 @@ python json-compare2.py -f1 "reports/2.4.8.1/annotationtest.json" -f2 "reports/2
 python json-compare2.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.8.1/spring-boot-2.6.0-M3.json" -o -l "reports/logs"
 python json-compare2.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.8.2/spring-boot-2.6.0-M3.json" -o -l "reports/logs"
 python json-compare2.py -f1 "reports/2.4.8.1/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.8.2/spring-boot-2.6.0-M3.json" -o -l "reports/logs"
+
+python json-compare2.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.7/spring-boot-project-CV.json" -o -l "reports/logs"
+python json-compare2.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.7/spring-boot-project-PV.json" -o -l "reports/logs"
+python json-compare2.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.7/spring-boot-project-SV.json" -o -l "reports/logs"
+
 '''
 description = '''
     Check if 2 json files are the same (regardless of key or list order), and
