@@ -24,3 +24,8 @@ python json-compare.py -f1 "reports/2.4.7/annotationtest.json" -f2 "reports/2.4.
 
 ### Compare spring
 python json-compare.py -f1 "reports/2.4.7/spring-boot-2.6.0-M3.json" -f2 "reports/2.4.8.1/spring-boot-2.6.0-M3.json" -o
+
+## Bugs
+### guj
+java -jar asniffer/target/asniffer.jar -p shopizer-master -r reports/2.4.11/ -t json
+java -jar asniffer/target/asniffer.jar -p shopizer-master -r reports/2.4.11/ -t jsonAV
