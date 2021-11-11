@@ -1,0 +1,240 @@
+{
+  "name": "annotationtest",
+  "children": [
+    {
+      "name": "annotationtest",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "org.springframework.context.annotation",
+          "type": "schema",
+          "value": 1,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "org.springframework.context.myimport",
+          "type": "schema",
+          "value": 1,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "javax.persistence",
+          "type": "schema",
+          "value": 12,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "com.google.common.annotations",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "org.springframework.security.access.annotation",
+          "type": "schema",
+          "value": 1,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "java.lang.annotation",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "org.checkerframework.checker.nullness.qual",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "javax.ws.rs.core",
+          "type": "schema",
+          "value": 1,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "annotationtest",
+          "type": "schema",
+          "value": 7,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "com.google.errorprone.annotations",
+          "type": "schema",
+          "value": 5,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "java.lang",
+          "type": "schema",
+          "value": 39,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "javax.ws.rs",
+          "type": "schema",
+          "value": 6,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "com.salesmanager.shop.validation",
+          "type": "schema",
+          "value": 4,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "com.google.errorprone.annotations.concurrent",
+          "type": "schema",
+          "value": 1,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "org.springframework.web.bind.annotation",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "org.junit",
+          "type": "schema",
+          "value": 5,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "com.google.j2objc.annotations",
+          "type": "schema",
+          "value": 4,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "br.inatel.cdg.annotation",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "br.inpe.climaespacial.tsi.business",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "br.inpe.climaespacial.tsi.business.impl",
+          "type": "package",
+          "properties": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "br.inpe.climaespacial.tsi.businesscli",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "br.inpe.climaespacial.tsi.businesscli.constants",
+          "type": "package",
+          "properties": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "com.salesmanager.shop.model.customer",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "com.salesmanager.shop.validation",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "javax.validation.constraints",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "com.salesmanager.shop.model.order.transaction",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "com.salesmanager.shop.validation",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "com.salesmanager.shop.validation",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "java.lang.annotation",
+          "type": "schema",
+          "value": 9,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "javax.validation",
+          "type": "schema",
+          "value": 2,
+          "properties": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot.context.properties",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "org.springframework.boot.context.properties.bind",
+          "type": "schema",
+          "value": 1,
+          "properties": {},
+          "children": []
+        },
+        {
+          "name": "org.springframework.boot.context.properties.bind.test",
+          "type": "package",
+          "properties": {},
+          "children": []
+        }
+      ]
+    }
+  ]
+}

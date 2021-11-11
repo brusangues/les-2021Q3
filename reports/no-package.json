@@ -1,0 +1,40 @@
+{
+  "projectName": "no-package",
+  "packages": [
+    {
+      "packageName": "yespackage",
+      "results": [
+        {
+          "sourceFilePath": "C:\\Users\\Bruno\\Documents\\GitHub\\les-2021Q3\\asniffer\\annotationtest\\no-package\\YesPackageTest.java",
+          "className": "yespackage.YesPackageTest",
+          "type": "class",
+          "annotSchemasMap": {},
+          "classMetric": {
+            "LOC": 4,
+            "ASC": 0,
+            "AC": 0,
+            "NAEC": 0,
+            "UAC": 0,
+            "NEC": 2
+          },
+          "elementsReport": [
+            {
+              "type": "class",
+              "sourceCodeLine": 3,
+              "elementName": "YesPackageTest",
+              "aedValue": 0,
+              "annotationMetrics": []
+            },
+            {
+              "type": "field",
+              "sourceCodeLine": 4,
+              "elementName": "Optional[yes]",
+              "aedValue": 0,
+              "annotationMetrics": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

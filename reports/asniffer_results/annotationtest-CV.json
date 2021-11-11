@@ -1,0 +1,1990 @@
+{
+  "name": "annotationtest",
+  "children": [
+    {
+      "name": "annotationtest",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "annotationtest.AbstractService",
+          "type": "class",
+          "properties": {
+            "asc": "7",
+            "ac": "42",
+            "uac": "9"
+          },
+          "children": [
+            {
+              "name": "GwtIncompatible",
+              "type": "annotation",
+              "properties": {
+                "schema": "com.google.common.annotations",
+                "aa": "0",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "call",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "awaitTerminated",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "doStop",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "ForOverride",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.errorprone.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "awaitRunning",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "stopAsync",
+              "type": "method",
+              "value": 2,
+              "properties": {},
+              "children": [
+                {
+                  "name": "CanIgnoreReturnValue",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.errorprone.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "addListener",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Optional[failure]",
+              "type": "field",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Nullable",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "br.inatel.cdg.annotation",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "HasReachedRunningGuard",
+              "type": "class",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "WeakOuter",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.j2objc.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "isSatisfied",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "IsStoppedGuard",
+              "type": "class",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "WeakOuter",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.j2objc.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "awaitRunning",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "isSatisfied",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "doCancelStart",
+              "type": "method",
+              "value": 2,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Beta",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.common.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "ForOverride",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.errorprone.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "doStart",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "ForOverride",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.errorprone.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "StateSnapshot",
+              "type": "constructor",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Nullable",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.checkerframework.checker.nullness.qual",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "IsStartableGuard",
+              "type": "class",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "WeakOuter",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.j2objc.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "call",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "awaitTerminated",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "call",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "awaitRunning",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "failureCause",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "state",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "IsStoppableGuard",
+              "type": "class",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "WeakOuter",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.j2objc.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "isSatisfied",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "isSatisfied",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Optional[failure]",
+              "type": "field",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Nullable",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.checkerframework.checker.nullness.qual",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "startAsync",
+              "type": "method",
+              "value": 2,
+              "properties": {},
+              "children": [
+                {
+                  "name": "CanIgnoreReturnValue",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.errorprone.annotations",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "call",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "awaitTerminated",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "isRunning",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "checkCurrentState",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "GuardedBy",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.google.errorprone.annotations.concurrent",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "call",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "annotationtest.AnnotationTest",
+          "type": "class",
+          "properties": {
+            "asc": "7",
+            "ac": "39",
+            "uac": "25"
+          },
+          "children": [
+            {
+              "name": "constructConfiguration",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "getAnnotatedClasses",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "greet",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "isCleanupTestDataUsingBulkDelete",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "getAllResources",
+              "type": "method",
+              "value": 8,
+              "properties": {},
+              "children": [
+                {
+                  "name": "GET",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.ws.rs",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Path",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.ws.rs",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Produces",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.ws.rs",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Secured",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.springframework.security.access.annotation",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Context",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.ws.rs.core",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "PathParam",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.ws.rs",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "QueryParam",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.ws.rs",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "QueryParam",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.ws.rs",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "testDeleteFromEngineer",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Test",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.junit",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "greetSomeone",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Engineer",
+              "type": "class",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Entity",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Person",
+              "type": "class",
+              "value": 11,
+              "properties": {},
+              "children": [
+                {
+                  "name": "AssociationOverrides",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "1",
+                    "locad": "5",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "AssociationOverride",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "2",
+                    "locad": "2",
+                    "anl": "1"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "JoinColumn",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "2"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "AssociationOverride",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "2",
+                    "locad": "2",
+                    "anl": "1"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "JoinColumn",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "2"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "NamedQuery",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "2",
+                    "locad": "4",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Test",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.junit",
+                    "aa": "3",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Annotation0",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "annotationtest",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "1"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Annotation2",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "annotationtest",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "1"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Entity",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "2",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Inheritance",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "testUpdate",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Test",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.junit",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "hashCode",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Doctor",
+              "type": "class",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Entity",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "getAnnotatedClasses",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Optional[id]",
+              "type": "field",
+              "value": 2,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Annotation0",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "annotationtest",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Id",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "equals",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "setUp",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Before",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.junit",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "greetSomeone",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "greet",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "isCleanupTestDataRequired",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "testDeleteFromPerson",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Test",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.junit",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Optional[companyName]",
+              "type": "field",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Id",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.persistence",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "annotationtest.InnerAnnotationTypeTest",
+          "type": "class",
+          "properties": {
+            "asc": "3",
+            "ac": "6",
+            "uac": "5"
+          },
+          "children": [
+            {
+              "name": "AnnotationTest",
+              "type": "annotation",
+              "properties": {
+                "schema": "annotationtest",
+                "aa": "0",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "AnnotationFullyName",
+              "type": "annotation",
+              "properties": {
+                "schema": "br.inatel.cdg.annotation",
+                "aa": "0",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "Optional[innerField]",
+              "type": "field",
+              "value": 2,
+              "properties": {},
+              "children": [
+                {
+                  "name": "AnnotationTest",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "annotationtest",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Foo",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "annotationtest",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Foo",
+              "type": "annotation-declaration",
+              "value": 2,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Retention",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang.annotation",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Target",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang.annotation",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "annotationtest.InnerClassTest",
+          "type": "class",
+          "properties": {
+            "asc": "1",
+            "ac": "1",
+            "uac": "1"
+          },
+          "children": [
+            {
+              "name": "AnnotationTest",
+              "type": "annotation",
+              "properties": {
+                "schema": "annotationtest",
+                "aa": "0",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "annotationtest.SchemaTest",
+          "type": "class",
+          "properties": {
+            "asc": "5",
+            "ac": "9",
+            "uac": "8"
+          },
+          "children": [
+            {
+              "name": "Controller",
+              "type": "annotation",
+              "properties": {
+                "schema": "org.springframework.web.bind.annotation",
+                "aa": "0",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "RequestMapping",
+              "type": "annotation",
+              "properties": {
+                "schema": "org.springframework.web.bind.annotation",
+                "aa": "1",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "List",
+              "type": "annotation",
+              "properties": {
+                "aa": "1",
+                "locad": "3",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "methodD",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "List",
+                  "type": "annotation",
+                  "properties": {
+                    "aa": "1",
+                    "locad": "3",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "method",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Import",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.springframework.context.annotation",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "methodB",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Override",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "methodC",
+              "type": "method",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "MyImport",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.springframework.context.myimport",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "br.inpe.climaespacial.tsi.business",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "br.inpe.climaespacial.tsi.business.impl",
+          "type": "package",
+          "properties": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "br.inpe.climaespacial.tsi.businesscli",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "br.inpe.climaespacial.tsi.businesscli.constants",
+          "type": "package",
+          "properties": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "com.salesmanager.shop.model.customer",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "com.salesmanager.shop.model.customer.SecuredCustomer",
+          "type": "class",
+          "properties": {
+            "asc": "2",
+            "ac": "4",
+            "uac": "3"
+          },
+          "children": [
+            {
+              "name": "List",
+              "type": "annotation",
+              "properties": {
+                "aa": "1",
+                "locad": "3",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "Optional[password]",
+              "type": "field",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Size",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.validation.constraints",
+                    "aa": "2",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Optional[checkPassword]",
+              "type": "field",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Size",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "javax.validation.constraints",
+                    "aa": "2",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "com.salesmanager.shop.model.order.transaction",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "com.salesmanager.shop.model.order.transaction.PersistableTransaction",
+          "type": "class",
+          "properties": {
+            "asc": "1",
+            "ac": "2",
+            "uac": "2"
+          },
+          "children": [
+            {
+              "name": "Optional[paymentType]",
+              "type": "field",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Enum",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.salesmanager.shop.validation",
+                    "aa": "2",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Optional[transactionType]",
+              "type": "field",
+              "value": 1,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Enum",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "com.salesmanager.shop.validation",
+                    "aa": "2",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "com.salesmanager.shop.validation",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "com.salesmanager.shop.validation.Enum",
+          "type": "annotation-declaration",
+          "properties": {
+            "asc": "2",
+            "ac": "4",
+            "uac": "4"
+          },
+          "children": [
+            {
+              "name": "Documented",
+              "type": "annotation",
+              "properties": {
+                "schema": "java.lang.annotation",
+                "aa": "0",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "Constraint",
+              "type": "annotation",
+              "properties": {
+                "schema": "javax.validation",
+                "aa": "1",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "Target",
+              "type": "annotation",
+              "properties": {
+                "schema": "java.lang.annotation",
+                "aa": "1",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "Retention",
+              "type": "annotation",
+              "properties": {
+                "schema": "java.lang.annotation",
+                "aa": "1",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "com.salesmanager.shop.validation.FieldMatch",
+          "type": "annotation-declaration",
+          "properties": {
+            "asc": "2",
+            "ac": "7",
+            "uac": "4"
+          },
+          "children": [
+            {
+              "name": "Constraint",
+              "type": "annotation",
+              "properties": {
+                "schema": "javax.validation",
+                "aa": "1",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "Documented",
+              "type": "annotation",
+              "properties": {
+                "schema": "java.lang.annotation",
+                "aa": "0",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "Target",
+              "type": "annotation",
+              "properties": {
+                "schema": "java.lang.annotation",
+                "aa": "1",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "Retention",
+              "type": "annotation",
+              "properties": {
+                "schema": "java.lang.annotation",
+                "aa": "1",
+                "locad": "1",
+                "anl": "0"
+              },
+              "children": []
+            },
+            {
+              "name": "List",
+              "type": "annotation-declaration",
+              "value": 3,
+              "properties": {},
+              "children": [
+                {
+                  "name": "Target",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang.annotation",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Retention",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang.annotation",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "Documented",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "java.lang.annotation",
+                    "aa": "0",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "org.springframework.boot.context.properties",
+      "type": "package",
+      "properties": {},
+      "children": [
+        {
+          "name": "org.springframework.boot.context.properties.ConfigurationPropertiesTests",
+          "type": "class",
+          "properties": {
+            "asc": "1",
+            "ac": "2",
+            "uac": "2"
+          },
+          "children": [
+            {
+              "name": "ConstructorParameterWithFormatProperties",
+              "type": "constructor",
+              "value": 2,
+              "properties": {},
+              "children": [
+                {
+                  "name": "DefaultValue",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.springframework.boot.context.properties.bind",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                },
+                {
+                  "name": "DefaultValue",
+                  "type": "annotation",
+                  "properties": {
+                    "schema": "org.springframework.boot.context.properties.bind",
+                    "aa": "1",
+                    "locad": "1",
+                    "anl": "0"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "org.springframework.boot.context.properties.bind.test",
+          "type": "package",
+          "properties": {},
+          "children": []
+        }
+      ]
+    }
+  ]
+}
