@@ -1,0 +1,1461 @@
+[Fri, 19 Nov 2021 00:11:29] INFO [annotation-schema-hunter.py.main:37] Logging to schemas\2021_11_19-00_11_29-spring-framework-main.log
+[Fri, 19 Nov 2021 00:11:29] INFO [annotation-schema-hunter.py.main:40] Listing files in C:/asniffer/spring-framework-main ...
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:43] 7212 files found.
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:46] Parsing files in C:/asniffer/spring-framework-main ...
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\integration-tests\src\test\java\org\springframework\context\annotation\jsr330\ClassPathBeanDefinitionScannerJsr330ScopeIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.jsr
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: RequestScoped
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SessionScoped
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-aop\src\test\java\org\springframework\aop\aspectj\AspectJAdviceParameterNameDiscoverAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-aop\src\test\java\org\springframework\aop\aspectj\TigerAspectJAdviceParameterNameDiscovererTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-aop\src\test\java\org\springframework\aop\aspectj\TrickyAspectJPointcutExpressionTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Log
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-aop\src\test\java\org\springframework\aop\aspectj\annotation\AbstractAspectJAdvisorFactoryTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Measured
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-aop\src\test\java\org\springframework\aop\aspectj\annotation\ArgumentBindingTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Transactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-aop\src\test\java\test\annotation\EmptySpringAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: test.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EmptySpringAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-aop\src\test\java\test\annotation\transaction\Tx.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: test.annotation.transaction
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Tx
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-aspects\src\main\java\org\springframework\context\annotation\aspectj\EnableSpringConfigured.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.aspectj
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableSpringConfigured
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\main\java\org\springframework\beans\factory\annotation\Autowired.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Autowired
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\main\java\org\springframework\beans\factory\annotation\Configurable.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Configurable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\main\java\org\springframework\beans\factory\annotation\Lookup.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Lookup
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\main\java\org\springframework\beans\factory\annotation\Qualifier.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Qualifier
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\main\java\org\springframework\beans\factory\annotation\Value.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Value
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\test\java\org\springframework\beans\factory\BeanFactoryUtilsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ControllerAdvice
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: RestControllerAdvice
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\test\java\org\springframework\beans\factory\annotation\AutowiredAnnotationBeanPostProcessorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAutowired
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\test\java\org\springframework\beans\factory\annotation\InjectAnnotationBeanPostProcessorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Nullable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\test\java\org\springframework\beans\factory\support\QualifierAnnotationAutowireBeanFactoryTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.support
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestQualifier
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-beans\src\testFixtures\java\org\springframework\beans\testfixture\beans\TestAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.testfixture.beans
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\cache\annotation\Cacheable.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.cache.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Cacheable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\cache\annotation\CacheConfig.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.cache.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CacheConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\cache\annotation\CacheEvict.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.cache.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CacheEvict
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\cache\annotation\CachePut.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.cache.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CachePut
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\cache\annotation\Caching.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.cache.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Caching
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\cache\annotation\EnableCaching.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.cache.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableCaching
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Bean.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Bean
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\ComponentScan.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Filter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\ComponentScans.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComponentScans
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Conditional.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Conditional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Configuration.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Configuration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\DependsOn.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DependsOn
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Description.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Description
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\EnableAspectJAutoProxy.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableAspectJAutoProxy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\EnableLoadTimeWeaving.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableLoadTimeWeaving
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\EnableMBeanExport.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableMBeanExport
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Import.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Import
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\ImportResource.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImportResource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Lazy.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Lazy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Primary.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Primary
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Profile.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Profile
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\PropertySource.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PropertySource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\PropertySources.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PropertySources
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Role.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Role
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\annotation\Scope.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Scope
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\context\event\EventListener.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.event
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EventListener
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\format\annotation\DateTimeFormat.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.format.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DateTimeFormat
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\format\annotation\NumberFormat.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.format.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NumberFormat
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\jmx\export\annotation\ManagedAttribute.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jmx.export.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ManagedAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\jmx\export\annotation\ManagedMetric.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jmx.export.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ManagedMetric
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\jmx\export\annotation\ManagedNotification.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jmx.export.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ManagedNotification
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\jmx\export\annotation\ManagedNotifications.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jmx.export.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ManagedNotifications
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\jmx\export\annotation\ManagedOperation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jmx.export.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ManagedOperation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\jmx\export\annotation\ManagedOperationParameter.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jmx.export.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ManagedOperationParameter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\jmx\export\annotation\ManagedOperationParameters.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jmx.export.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ManagedOperationParameters
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\jmx\export\annotation\ManagedResource.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jmx.export.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ManagedResource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\scheduling\annotation\Async.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Async
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\scheduling\annotation\EnableAsync.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableAsync
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\scheduling\annotation\EnableScheduling.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableScheduling
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\scheduling\annotation\Scheduled.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Scheduled
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\scheduling\annotation\Schedules.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Schedules
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\stereotype\Component.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.stereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Component
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\stereotype\Controller.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.stereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Controller
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\stereotype\Indexed.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.stereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PrivilegedService
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Indexed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\stereotype\Repository.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.stereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Repository
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\stereotype\Service.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.stereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Service
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\main\java\org\springframework\validation\annotation\Validated.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.validation.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Validated
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\example\gh24375\EnclosingAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.gh
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnclosingAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\example\gh24375\NestedAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.gh
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NestedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\example\profilescan\DevComponent.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.profilescan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DevComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\example\scannable\CustomAnnotations.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.scannable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PrivateAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SpecialAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\example\scannable\CustomAspectStereotype.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.scannable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CustomAspectStereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\example\scannable\CustomComponent.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.scannable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CustomComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\example\scannable\CustomStereotype.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.scannable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CustomStereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\example\scannable_scoped\MyScope.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.scannable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyScope
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\aop\aspectj\ThisAndTargetSelectionOnlyPointcutsAtAspectJTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\aop\aspectj\autoproxy\AspectJAutoProxyCreatorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj.autoproxy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Marker
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\aop\aspectj\autoproxy\TestAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj.autoproxy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\aop\aspectj\autoproxy\spr3064\SPR3064Tests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.aop.aspectj.autoproxy.spr
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Transaction
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\beans\factory\support\InjectAnnotationAutowireContextTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.support
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestQualifier
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestQualifierWithDefaultValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestQualifierWithMultipleAttributes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\beans\factory\support\QualifierAnnotationAutowireContextTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.support
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAutowired
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestQualifier
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestQualifierWithDefaultValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestQualifierWithMultipleAttributes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\beans\factory\xml\QualifierAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.beans.factory.xml
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SimpleValueQualifier
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultipleAttributeQualifier
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\cache\annotation\AnnotationCacheOperationSourceTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.cache.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CacheableFoo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CacheableFooCustomKeyGenerator
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CacheableFooCustomCacheManager
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CacheableFooCustomCacheResolver
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EvictFoo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EvictBar
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CacheConfigFoo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedCacheable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedCacheEvict
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\AnnotationBeanNameGeneratorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonStringMetaComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestRestController
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\AnnotationScopeMetadataResolverTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CustomRequestScope
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CustomRequestScopeWithAttributeOverride
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\BeanAge.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BeanAge
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\BeanMethodMetadataTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ClassPathScanningCandidateComponentProviderTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultProfile
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DevProfile
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ComponentScanAnnotationIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ComponentScanAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ComponentScanParserTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CustomAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ConfigurationClassPostProcessorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PrototypeScoped
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedConfigurationWithAttributeOverrides
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedComposedConfigurationWithAttributeOverrides
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaComponentScanConfigurationWithAttributeOverrides
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ConfigurationClassWithConditionTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaConditional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Never
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaNever
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\EnableAspectJAutoProxyTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Loggable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ImportAwareTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableImportedConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableImportRegistrar
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableSomeConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableLiteConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableFeature
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: FeaturePolicy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ImportBeanDefinitionRegistrarTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Sample
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\ImportSelectorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Sample
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: GroupedSample
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\LazyAutowiredAnnotationBeanPostProcessorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: LazyInject
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\PropertySourceAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyPropertySource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\Spr11202Tests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Bar
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\configuration\AutowiredConfigurationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.configuration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyProp
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedProp
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\configuration\BeanMethodQualificationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.configuration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Boring
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InterestingBean
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InterestingBeanWithName
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InterestingNeed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InterestingNeedWithRequiredOverride
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InterestingPojo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\configuration\ConfigurationMetaAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.configuration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\configuration\ImportAnnotationDetectionTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.configuration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaImport1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaImport2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\configuration\ScopingTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.configuration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyScope
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyProxiedScope
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\configuration\spr9031\Spr9031Tests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.configuration.spr
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MarkerAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\spr12334\Spr12334Tests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.spr
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnotherImport
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation\spr8761\Spr8761Tests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation.spr
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\annotation5\MyRepository.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepository
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\context\event\AnnotationDrivenEventListenerTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.event
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: FooListener
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConditionalEvent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\format\support\FormattingConversionServiceFactoryBeanTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.format.support
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SpecialInt
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\scheduling\annotation\AnnotationAsyncExecutionInterceptorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAsync
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\scheduling\annotation\AsyncExecutionTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAsync
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\scheduling\annotation\EnableAsyncTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CustomAsync
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\scheduling\annotation\ScheduledAnnotationBeanPostProcessorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EveryFiveSeconds
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Hourly
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: WaitASec
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BusinessHours
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NameToClass
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\scheduling\support\CronTriggerTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scheduling.support
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedCronTriggerTest
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\scripting\groovy\Log.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.scripting.groovy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Log
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\validation\beanvalidation\MethodValidationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.validation.beanvalidation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyStereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyValid
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\validation\beanvalidation\SpringValidatorAdapterTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.validation.beanvalidation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Same
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: List
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SameGroup
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnythingValid
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context\src\test\java\org\springframework\validation\beanvalidation\ValidatorFactoryTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.validation.beanvalidation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NameAddressValid
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InnerValid
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NotXList
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context-indexer\src\test\java\org\springframework\context\index\sample\MetaController.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.index.sample
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaController
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context-indexer\src\test\java\org\springframework\context\index\sample\MetaControllerIndexed.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.index.sample
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaControllerIndexed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-context-indexer\src\test\java\org\springframework\context\index\sample\Scope.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.context.index.sample
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Scope
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\main\java\org\springframework\core\annotation\AliasFor.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasFor
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\main\java\org\springframework\core\annotation\Order.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Order
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\main\java\org\springframework\lang\NonNull.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.lang
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonNull
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\main\java\org\springframework\lang\NonNullApi.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.lang
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonNullApi
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\main\java\org\springframework\lang\NonNullFields.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.lang
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonNullFields
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\main\java\org\springframework\lang\Nullable.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.lang
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Nullable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\example\type\EnclosingAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnclosingAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\example\type\InheritedAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InheritedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\example\type\NestedAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NestedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\example\type\NonInheritedAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: example.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonInheritedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\MethodParameterTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Param
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotatedElementUtilsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle3
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Transactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedTransactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAliasedTransactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedMyAliasedTransactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InheritedComposed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Composed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TxComposedWithOverride
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TxInheritedComposed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TxComposed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransactionalComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedTransactionalComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedTransactionalComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAndLocalTxConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestPropSource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConventionBasedComposedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InvalidConventionBasedComposedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: HalfConventionBasedAndHalfAliasedComposedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedComposedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedValueComposedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedImplicitAliasesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasesWithDefaults
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithDefaults
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SingleLocationTransitiveImplicitAliasesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesWithSkippedLevelContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SingleLocationTransitiveImplicitAliasesWithSkippedLevelContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ShadowedAliasComposedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedComposedContextConfigAndTestPropSource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SpringAppConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Filter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConventionBasedSinglePackageComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForBasedSinglePackageComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ValueAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ValueAttributeMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ValueAttributeMetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotationAttributesTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Filter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotationBackCompatibiltyTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaTestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAndMetaTestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaTestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultValueAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotationEnclosingClassSample.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnclosedOne
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnclosedTwo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnclosedThree
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotationFilterTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: OtherAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotationIntrospectionFailureTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ExampleAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ExampleMetaAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotationsScannerTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation3
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation4
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation5
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation6
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestInheritedAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestInheritedAnnotation2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestInheritedAnnotation3
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestInheritedAnnotation4
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestInheritedAnnotation5
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: OnSuperClass
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: OnInterface
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotationTypeMappingsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SimpleAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AA
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ABC
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AB
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: A
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: B
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotated
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Repeatings
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Repeating
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: WithRepeatedMetaAnnotations
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SelfAnnotated
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: LoopA
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: LoopB
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithBothValueAndAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForToSelfNonExistingAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForToOtherNonExistingAttributeTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForToOtherNonExistingAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForToSelf
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithArrayCompatibleReturnTypesTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithArrayCompatibleReturnTypes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithIncompatibleReturnTypesTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithIncompatibleReturnTypes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForToSelfAnnotatedToOtherAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasPair
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithMixedImplicitAndExplicitAliasesV1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithMixedImplicitAndExplicitAliasesV2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForNonMetaAnnotated
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForNonMetaAnnotatedTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForSelfWithDifferentDefaults
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForSelfWithMissingDefault
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasWithExplicitMirrorAndDifferentDefaultsTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasWithExplicitMirrorAndDifferentDefaults
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MappedTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Mapped
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitMirrorsTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitMirrors
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ThreeDeepC
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ThreeDeepB
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ThreeDeepA
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefinedAttributesTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefinedAttributes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultipleRoutesToAliasC
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultipleRoutesToAliasB
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultipleRoutesToAliasA
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConventionToExplicitAliasesTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConventionToExplicitAliases
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ClassValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ClassValueWithDefault
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ClassArrayValueWithDefault
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NestedValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AnnotationUtilsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Meta1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Meta2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle3
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Transactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatableContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatableMeta1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatableMeta2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatableMeta1And2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: WebMapping
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Get
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Post
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Hierarchy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CharsContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithMissingAttributeDeclaration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithDuplicateAttributeDeclaration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForNonexistentAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithoutMirroredAliasFor
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithMirroredAliasForWrongAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForAttributeOfDifferentType
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithMissingDefaultValues
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForAttributeWithDifferentDefaultValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedComposedContextConfigNotMetaPresent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedComposedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithImpliedAliasNamesOmittedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesWithImpliedAliasNamesOmittedContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithMissingDefaultValuesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithDifferentDefaultValuesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithDuplicateValuesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesForAliasPairContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesForAliasPairContextConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Filter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComponentScanSingleFilter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnnotationWithDefaults
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnnotationWithoutDefaults
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestRepeatableContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\AttributeMethodsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NoAttributes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultipleAttributes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ValueOnly
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonValueOnly
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ClassValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ClassArrayValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultValueAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\ComposedRepeatableAnnotationsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContainerMissingValueAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContainerWithNonArrayValueAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContainerWithArrayValueAttributeButWrongComponentType
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InvalidRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PeteRepeats
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PeteRepeat
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ForPetesSake
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ForTheLoveOfFoo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Noninheriteds
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Noninherited
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedNoninherited
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MergedAnnotationClassLoaderTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestMetaAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MergedAnnotationCollectorsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotations
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MergedAnnotationPredicatesTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotations
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MissingAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MergedAnnotationsCollectionTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Direct
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Meta1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Meta2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Meta11
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Simple
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Missing
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultiRouteTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultiRoute1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultiRoute11
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultiRoute12
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MultiRoute111
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Aliased
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MergedAnnotationsComposedOnSingleAnnotatedElementTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Cacheable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: FooCache
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BarCache
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NoninheritedCache1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NoninheritedCache2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MergedAnnotationsRepeatableAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContainerMissingValueAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContainerWithNonArrayValueAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContainerWithArrayValueAttributeButWrongComponentType
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InvalidRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PeteRepeats
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PeteRepeat
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ForPetesSake
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ForTheLoveOfFoo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Noninheriteds
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Noninherited
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedNoninherited
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: WithRepeatedMetaAnnotations
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MergedAnnotationsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Transactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransactionalComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedTransactionalComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedTransactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InheritedComposed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Composed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TxComposedWithOverride
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TxInheritedComposed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TxComposed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedTransactionalComponent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyAliasedTransactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedMyAliasedTransactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAliasedTransactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaAliasedTransactional
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAndLocalTxConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestPropertySource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConventionBasedComposedContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InvalidConventionBasedComposedContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: HalfConventionBasedAndHalfAliasedComposedContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedComposedContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedValueComposedContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedImplicitAliasesContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SingleLocationTransitiveImplicitAliasesContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesWithSkippedLevelContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SingleLocationTransitiveImplicitAliasesWithSkippedLevelContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ShadowedAliasComposedContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedComposedContextConfigurationAndTestPropertySource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SpringApplicationConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Filter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConventionBasedSinglePackageComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForBasedSinglePackageComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Meta1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Meta2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle3
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatableContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatableMeta1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepeatableMeta2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: RequestMapping
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: GetMapping
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PostMapping
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Id
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: GeneratedValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Hierarchy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: CharsContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithMissingAttributeDeclaration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithDuplicateAttributeDeclaration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForNonexistentAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithoutMirroredAliasFor
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithMirroredAliasForWrongAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForAttributeOfDifferentType
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForWithMissingDefaultValues
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasForAttributeWithDifferentDefaultValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedComposedTestConfigurationNotMetaPresent
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AliasedComposedTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithImpliedAliasNamesOmittedTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesWithImpliedAliasNamesOmittedTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithMissingDefaultValuesTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithDifferentDefaultValuesTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesWithDuplicateValuesTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ImplicitAliasesForAliasPairTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TransitiveImplicitAliasesForAliasPairTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComponentScanSingleFilter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnnotationWithDefaults
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnnotationWithoutDefaults
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideRoot
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideMetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideMetaMetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideImplicitAlias
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideAliasImplicitMeta1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideImplicitAliasMeta2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideExplicitAliasRoot
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideExplicitAliasRootMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DefaultOverrideExplicitAliasRootMetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ValueAttribute
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ValueAttributeMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ValueAttributeMetaMeta
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MissingMergedAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\MultipleComposedAnnotationsOnSingleAnnotatedElementTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Cacheable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: FooCache
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BarCache
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NoninheritedCache1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NoninheritedCache2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\RepeatableContainersTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: StandardRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: StandardContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ExplicitRepeatable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ExplicitContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InvalidNoValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InvalidNotArray
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InvalidWrongArrayType
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\TypeMappedAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ExplicitMirror
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ExplicitAliasToMetaAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ExplicitAliasMetaAnnotationTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConventionAliasToMetaAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConventionAliasMetaAnnotationTarget
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ArrayTypes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NestedContainer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Nested
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ClassAttributes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\subpackage\NonPublicAliasedAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation.subpackage
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonPublicAliasedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\annotation\subpackage\NonPublicAnnotation.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.annotation.subpackage
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NonPublicAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\convert\TypeDescriptorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.convert
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: FieldAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MethodAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MethodAnnotation2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MethodAnnotation3
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedMethodAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedComposedMethodAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\convert\support\GenericConversionServiceTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.convert.support
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ExampleAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\type\AbstractAnnotationMetadataTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DirectAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DirectAnnotation2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotationRoot
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotation2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotationAttributes1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotationAttributes2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnnotationAttributes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\type\AbstractMethodMetadataTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Tag
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DirectAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotationAttributes1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotationAttributes2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnnotationAttributes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\type\AnnotationMetadataTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NestedAnno
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SpecialAttr
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DirectAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: IsAnnotatedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnumSubclasses
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestComponentScan
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedConfigurationWithAttributeOverrides
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NamedAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NamedAnnotation2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NamedAnnotation3
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NamedComposedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\type\InheritedAnnotationsAnnotationMetadataTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NamedAnnotation1
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NamedAnnotation2
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NamedAnnotation3
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: InheritedComposedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\type\Scope.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Scope
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\type\TestAutowired.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestAutowired
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\type\TestQualifier.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.type
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestQualifier
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\core\type\classreading\MergedAnnotationMetadataVisitorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.type.classreading
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SimpleTypesAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SimpleArrayTypesAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnumAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AnnotationAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NestedAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ClassAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\test\java\org\springframework\util\ClassUtilsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.util
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: WrapperTypes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PrimitiveTypes
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\testFixtures\java\org\springframework\core\testfixture\EnabledForTestGroups.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.testfixture
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnabledForTestGroups
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\testFixtures\java\org\springframework\core\testfixture\io\buffer\AbstractDataBufferAllocatingTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.testfixture.io.buffer
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedDataBufferAllocatingTest
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\testFixtures\java\org\springframework\core\testfixture\stereotype\Component.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.testfixture.stereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Component
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-core\src\testFixtures\java\org\springframework\core\testfixture\stereotype\Indexed.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.core.testfixture.stereotype
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Indexed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-expression\src\test\java\org\springframework\expression\spel\IndexingTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.expression.spel
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: FieldAnnotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-expression\src\test\java\org\springframework\expression\spel\MethodInvocationTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.expression.spel
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Anno
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-jms\src\main\java\org\springframework\jms\annotation\EnableJms.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jms.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnableJms
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-jms\src\main\java\org\springframework\jms\annotation\JmsListener.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jms.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: JmsListener
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-jms\src\main\java\org\springframework\jms\annotation\JmsListeners.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jms.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: JmsListeners
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-jms\src\test\java\org\springframework\jms\annotation\EnableJmsTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jms.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: OrderQueueListener
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BillingQueueListener
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-jms\src\test\java\org\springframework\jms\annotation\JmsListenerAnnotationBeanPostProcessorTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.jms.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: FooListener
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\handler\annotation\DestinationVariable.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.handler.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DestinationVariable
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\handler\annotation\Header.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.handler.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Header
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\handler\annotation\Headers.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.handler.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Headers
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\handler\annotation\MessageExceptionHandler.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.handler.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MessageExceptionHandler
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\handler\annotation\MessageMapping.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.handler.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MessageMapping
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\handler\annotation\Payload.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.handler.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Payload
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\handler\annotation\SendTo.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.handler.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SendTo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\rsocket\annotation\ConnectMapping.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.rsocket.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ConnectMapping
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\simp\annotation\SendToUser.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.simp.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SendToUser
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\main\java\org\springframework\messaging\simp\annotation\SubscribeMapping.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.simp.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SubscribeMapping
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\test\java\org\springframework\messaging\handler\annotation\support\PayloadMethodArgumentResolverTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.handler.annotation.support
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MyValid
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-messaging\src\test\java\org\springframework\messaging\simp\annotation\support\SendToMethodReturnValueHandlerTests.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.messaging.simp.annotation.support
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MySendTo
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: MySendToUser
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\annotation\Commit.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Commit
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\annotation\DirtiesContext.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DirtiesContext
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\annotation\IfProfileValue.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: IfProfileValue
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\annotation\ProfileValueSourceConfiguration.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ProfileValueSourceConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\annotation\Repeat.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Repeat
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\annotation\Rollback.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Rollback
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\annotation\Timed.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Timed
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\ActiveProfiles.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ActiveProfiles
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\BootstrapWith.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BootstrapWith
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\ContextConfiguration.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContextConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\ContextHierarchy.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: ContextHierarchy
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\DynamicPropertySource.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DynamicPropertySource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\NestedTestConfiguration.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: NestedTestConfiguration
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\TestConstructor.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestConstructor
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\TestExecutionListeners.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestExecutionListeners
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\TestPropertySource.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestPropertySource
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\TestPropertySources.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: TestPropertySources
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\event\RecordApplicationEvents.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: RecordApplicationEvents
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\event\annotation\AfterTestClass.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AfterTestClass
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\event\annotation\AfterTestExecution.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AfterTestExecution
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\event\annotation\AfterTestMethod.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AfterTestMethod
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\event\annotation\BeforeTestClass.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BeforeTestClass
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\event\annotation\BeforeTestExecution.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BeforeTestExecution
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\event\annotation\BeforeTestMethod.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BeforeTestMethod
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\event\annotation\PrepareTestInstance.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event.annotation
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: PrepareTestInstance
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\jdbc\Sql.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.jdbc
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: Sql
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\jdbc\SqlConfig.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.jdbc
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SqlConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\jdbc\SqlGroup.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.jdbc
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SqlGroup
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\jdbc\SqlMergeMode.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.jdbc
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SqlMergeMode
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\junit\jupiter\DisabledIf.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit.jupiter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: DisabledIf
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\junit\jupiter\EnabledIf.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit.jupiter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: EnabledIf
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\junit\jupiter\SpringJUnitConfig.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit.jupiter
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SpringJUnitConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\junit\jupiter\web\SpringJUnitWebConfig.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit.jupiter.web
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: SpringJUnitWebConfig
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\transaction\AfterTransaction.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.transaction
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: AfterTransaction
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\transaction\BeforeTransaction.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.transaction
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: BeforeTransaction
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\main\java\org\springframework\test\context\web\WebAppConfiguration.java
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.web
+[Fri, 19 Nov 2021 00:11:30] INFO [annotation-schema-hunter.py.main:61] ----key: WebAppConfiguration
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\annotation\ProfileValueUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaEnabled
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaDisabled
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaEnabledWithCustomProfileValueSource
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaDisabledWithCustomProfileValueSource
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\BootstrapUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: BootWithFoo
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: BootWithFooAgain
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: BootWithBar
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\OverriddenMetaAnnotationAttributesTestContextAnnotationUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaValueConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaLocationsConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\TestContextAnnotationUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Meta1
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Meta2
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMeta
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaMeta
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle1
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle2
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaCycle3
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\TestExecutionListenersTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaListeners
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaInheritedListeners
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaNonInheritedListeners
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaListenersWithOverrides
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaInheritedListenersWithOverrides
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaNonInheritedListenersWithOverrides
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\env\repeatable\LocalInlinedPropertyOverridesInheritedAndMetaInlinedPropertiesTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.env.repeatable
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Key1InlinedTestProperty
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\env\repeatable\LocalPropertiesFileAndMetaPropertiesFileTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.env.repeatable
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaFileTestProperty
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\env\repeatable\MetaComposedTestProperty.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.env.repeatable
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaComposedTestProperty
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaInlinedTestProperty
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\env\repeatable\MetaInlinedTestProperty.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.env.repeatable
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaInlinedTestProperty
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\event\EventPublishingTestExecutionListenerIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.event
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Traceable
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\hierarchies\meta\MetaContextHierarchyConfig.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.hierarchies.meta
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaContextHierarchyConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: DevProfile
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ProdProfile
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\hierarchies\meta\MetaMetaContextHierarchyConfig.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.hierarchies.meta
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaContextHierarchyConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\jdbc\ComposedAnnotationSqlScriptsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.jdbc
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedSql
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\jdbc\MetaAnnotationSqlScriptsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.jdbc
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaSql
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaSqlGroup
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit\jupiter\DisabledOnMac.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit.jupiter
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: DisabledOnMac
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit\jupiter\EnabledOnMac.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit.jupiter
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: EnabledOnMac
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit\jupiter\FailingTestCase.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit.jupiter
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: FailingTestCase
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\RepeatedSpringRunnerTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RepeatedFiveTimes
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\SpringJUnit4ClassRunnerTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaTimed
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaTimedWithOverride
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\TimedSpringRunnerTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaTimed
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaTimedWithOverride
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\aci\annotation\InitializerConfiguredViaMetaAnnotationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedContextConfiguration
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\annotation\meta\ConfigClassesAndProfileResolverWithCustomDefaultsMetaConfig.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ConfigClassesAndProfileResolverWithCustomDefaultsMetaConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\annotation\meta\ConfigClassesAndProfilesMetaConfig.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ConfigClassesAndProfilesMetaConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\annotation\meta\ConfigClassesAndProfilesWithCustomDefaultsMetaConfig.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ConfigClassesAndProfilesWithCustomDefaultsMetaConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\annotation\meta\MetaMetaConfig.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaMetaConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\junit4\rules\RepeatedSpringRuleTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.junit
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RepeatedFiveTimes
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\support\AbstractContextConfigurationUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.support
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaLocationsFooConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaLocationsFooConfigWithOverrides
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaLocationsBarConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\support\ActiveProfilesUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.support
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAnimalsConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaResolverConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\support\AnnotationConfigContextLoaderUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.support
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\support\BootstrapTestUtilsMergedConfigTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.support
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: SpringAppConfig
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\support\ContextLoaderUtilsContextHierarchyTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.support
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ContextConfigurationAndContextHierarchyOnSingleMeta
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ContextHierarchyA
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ContextHierarchyB
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ContextHierarchyC
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ContextConfigWithOverrides
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\support\DirtiesContextTestExecutionListenerTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.support
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaDirtyAfterMethod
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaDirtyAfterEachTestMethod
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaDirtyAfterClass
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaDirtyWithOverrides
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\support\TestConstructorUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.support
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: AutowireConstructor
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\support\TestPropertySourceUtilsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.support
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: InheritLocationsFalseTestProperty
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: InheritPropertiesFalseTestProperty
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\transaction\TransactionalTestExecutionListenerTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.transaction
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaTransactional
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaTxWithOverride
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaBeforeTransaction
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MetaAfterTransaction
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\context\web\WebTestConfiguration.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.context.web
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: WebTestConfiguration
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\web\servlet\samples\client\standalone\resultmatches\StatusAssertionTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.web.servlet.samples.client.standalone.resultmatches
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Get
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-test\src\test\java\org\springframework\test\web\servlet\samples\standalone\resultmatchers\StatusAssertionTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.test.web.servlet.samples.standalone.resultmatchers
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Get
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-tx\src\main\java\org\springframework\transaction\annotation\EnableTransactionManagement.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.transaction.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: EnableTransactionManagement
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-tx\src\main\java\org\springframework\transaction\annotation\Transactional.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.transaction.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Transactional
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-tx\src\main\java\org\springframework\transaction\event\TransactionalEventListener.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.transaction.event
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: TransactionalEventListener
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-tx\src\test\java\org\springframework\dao\annotation\PersistenceExceptionTranslationAdvisorTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.dao.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MyRepository
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-tx\src\test\java\org\springframework\transaction\annotation\AnnotationTransactionAttributeSourceTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.transaction.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Tx
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: TxWithAttribute
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-tx\src\test\java\org\springframework\transaction\config\NoSynch.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.transaction.config
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: NoSynch
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-tx\src\test\java\org\springframework\transaction\event\TransactionalEventListenerTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.transaction.event
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: AfterCommitEventListener
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\ControllerAdvice.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ControllerAdvice
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\CookieValue.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: CookieValue
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\CrossOrigin.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: CrossOrigin
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\DeleteMapping.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: DeleteMapping
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\ExceptionHandler.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ExceptionHandler
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\GetMapping.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: GetMapping
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\InitBinder.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: InitBinder
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\Mapping.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Mapping
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\MatrixVariable.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MatrixVariable
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\ModelAttribute.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ModelAttribute
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\PatchMapping.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PatchMapping
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\PathVariable.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PathVariable
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\PostMapping.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PostMapping
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\PutMapping.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PutMapping
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\RequestAttribute.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RequestAttribute
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\RequestBody.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RequestBody
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\RequestHeader.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RequestHeader
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\RequestMapping.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RequestMapping
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\RequestParam.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RequestParam
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\RequestPart.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RequestPart
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\ResponseBody.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ResponseBody
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\ResponseStatus.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ResponseStatus
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\RestController.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RestController
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\RestControllerAdvice.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RestControllerAdvice
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\SessionAttribute.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: SessionAttribute
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\bind\annotation\SessionAttributes.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.bind.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: SessionAttributes
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\context\annotation\ApplicationScope.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.context.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ApplicationScope
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\context\annotation\RequestScope.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.context.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: RequestScope
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\main\java\org\springframework\web\context\annotation\SessionScope.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.context.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: SessionScope
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\test\java\org\springframework\http\client\reactive\ClientHttpConnectorTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.http.client.reactive
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedConnectorTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\test\java\org\springframework\http\codec\multipart\DefaultPartHttpMessageReaderTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.http.codec.multipart
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedDefaultPartHttpMessageReaderTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\test\java\org\springframework\http\server\reactive\HeadersAdaptersTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.http.server.reactive
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedHeadersTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\test\java\org\springframework\web\client\RestTemplateIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.client
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedRestTemplateTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\test\java\org\springframework\web\context\request\ServletWebRequestHttpMethodsTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.context.request
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedHttpMethodTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\test\java\org\springframework\web\cors\UrlBasedCorsConfigurationSourceTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.cors
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PathPatternsParameterizedTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\test\java\org\springframework\web\method\ControllerAdviceBeanTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.method
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ControllerAnnotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\test\java\org\springframework\web\method\annotation\ModelAttributeMethodProcessorTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: Valid
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-web\src\testFixtures\java\org\springframework\web\testfixture\http\server\reactive\bootstrap\AbstractHttpHandlerIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.testfixture.http.server.reactive.bootstrap
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedHttpServerTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webflux\src\main\java\org\springframework\web\reactive\config\EnableWebFlux.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.reactive.config
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: EnableWebFlux
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webflux\src\test\java\org\springframework\web\reactive\function\client\WebClientIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.reactive.function.client
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedWebClientTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webflux\src\test\java\org\springframework\web\reactive\function\server\DefaultServerRequestTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.reactive.function.server
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedHttpMethodTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webflux\src\test\java\org\springframework\web\reactive\result\method\annotation\RequestMappingHandlerMappingTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.reactive.result.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PostJson
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webflux\src\test\java\org\springframework\web\reactive\result\method\annotation\SseIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.reactive.result.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedSseTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webflux\src\test\java\org\springframework\web\reactive\socket\AbstractWebSocketIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.reactive.socket
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedWebSocketTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\main\java\org\springframework\web\servlet\config\annotation\EnableWebMvc.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.config.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: EnableWebMvc
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\config\MvcNamespaceTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.config
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: IsoDate
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PercentNumber
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MyValid
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MyGroup
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\function\DefaultServerRequestTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.function
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedHttpMethodTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\handler\PathPatternsParameterizedTest.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.handler
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PathPatternsParameterizedTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\annotation\ResponseStatusExceptionResolverTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedResponseStatus
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\method\annotation\CrossOriginTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedCrossOrigin
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\method\annotation\MvcUriComponentsBuilderTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PostJson
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\method\annotation\PrincipalMethodArgumentResolverTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: AuthenticationPrincipal
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\method\annotation\RequestMappingHandlerAdapterIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: AuthenticationPrincipal
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\method\annotation\RequestMappingHandlerMappingTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: PostJson
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\method\annotation\ServletAnnotationControllerHandlerMethodTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: MyControllerAnnotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\method\annotation\ServletInvocableHandlerMethodTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ComposedResponseStatus
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-webmvc\src\test\java\org\springframework\web\servlet\mvc\method\annotation\ServletRequestMethodArgumentResolverTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.servlet.mvc.method.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: AuthenticationPrincipal
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-websocket\src\main\java\org\springframework\web\socket\config\annotation\EnableWebSocket.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.socket.config.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: EnableWebSocket
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-websocket\src\main\java\org\springframework\web\socket\config\annotation\EnableWebSocketMessageBroker.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.socket.config.annotation
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: EnableWebSocketMessageBroker
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-websocket\src\test\java\org\springframework\web\socket\AbstractWebSocketIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.socket
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: ParameterizedWebSocketTest
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:56] --Match in C:/asniffer/spring-framework-main\spring-websocket\src\test\java\org\springframework\web\socket\messaging\StompWebSocketIntegrationTests.java
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:59] ----schema: org.springframework.web.socket.messaging
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:61] ----key: IntegrationTestController
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:64] Matched 333 files.
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:65] Found 619/787 unique annotations.
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:68] Writing output json to schemas\2021_11_19-00_11_29-spring-framework-main.json ...
+[Fri, 19 Nov 2021 00:11:31] INFO [annotation-schema-hunter.py.main:71] Finished in 0:00:01.544844.
